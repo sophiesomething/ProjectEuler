@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class Problem10 {
 
 	/* 20170324 - Sophie Andrews
