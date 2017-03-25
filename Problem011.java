@@ -135,7 +135,7 @@ public class Problem11 {
 	// Main method
 	public static void main(String[] args) throws java.io.FileNotFoundException{
 
-		ArrayList<ArrayList<Integer>> grid = readGrid("src/problem11grid.txt");
+		ArrayList<ArrayList<Integer>> grid = readGrid("src/Problem011_grid.txt");
 
 		long uD = checkUpDown(grid);
 		long lR = checkLeftRight(grid);
