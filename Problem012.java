@@ -24,6 +24,8 @@ public class Problem12 {
 		What is the value of the first triangle number to have over five hundred divisors?
 	 * 
 	 * 
+	 *	Currently quite inefficient: takes around 20 seconds to run on a 2015 1.6 GHz Intel Core i5 MacBook Air.
+	 *
 	 */
 
 
