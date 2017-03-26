@@ -14,7 +14,7 @@ public class Problem15 {
 	 */
 	
 
-	public static BigInteger getFactorial2(int num){
+	public static BigInteger getFactorial(int num){
 
 		BigInteger factorial = new BigInteger("1");
 
@@ -29,7 +29,7 @@ public class Problem15 {
 
 	public static BigInteger getRoutes(int gridSize){
 		
-		BigInteger val = getFactorial2(gridSize*2).divide((getFactorial2((gridSize)).multiply((getFactorial2((gridSize*2)-gridSize)))));
+		BigInteger val = getFactorial(gridSize*2).divide((getFactorial((gridSize)).multiply((getFactorial((gridSize*2)-gridSize)))));
 	
 		return val;
 	}
