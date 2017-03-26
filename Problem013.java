@@ -39,7 +39,7 @@ public class Problem13 {
 	public static void nDigitSum(String file, int n) throws java.io.FileNotFoundException{
 
 		ArrayList<BigInteger> nums = readNums(file);
-		BigInteger sum = new BigInteger("1");
+		BigInteger sum = new BigInteger("0");
 
 		for (int i = 0; i < nums.size(); i++){
 
