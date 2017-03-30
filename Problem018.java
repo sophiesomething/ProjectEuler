@@ -82,6 +82,11 @@ public class Problem018 {
 					} else if (daughterR > daughterL) {
 
 						tri[r][c] += tri[r+1][c+1];
+						
+					} else if (daughterR == daughterL){
+						
+						tri[r][c] += tri[r+1][c+1];
+					
 					}
 				}
 			}
